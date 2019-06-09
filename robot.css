@@ -1,0 +1,80 @@
+*{
+	padding: 0px;
+	margin:0px;
+}
+h1{
+	text-align: center;
+	line-height: 100px;
+}
+.head-circle{
+	margin: auto;
+	width: 150px;
+	height:120px;
+	border-radius: 200px 200px 0px 0px;
+	background-color: #508be5;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.head-circle:hover{
+	transition: 1s ease-out;
+	 width: 240px;
+}
+.eye{
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color:white; 
+	position: relative;
+	top:40px;
+
+}
+.bottom{
+	margin: 10px auto;
+	width: 250px;
+	height: 150px;
+	display: flex;
+	justify-content: space-around; 
+}
+.arm{
+	width: 33px;
+	height: 100px;
+	background-color: #508be5;
+	position: relative;
+	top:5px;
+	border-radius: 40px;
+}
+.arm:hover{
+	transform: rotate(15deg);
+}
+.body{
+	width: 150px;
+	height: 150px;
+	background-color:  #508be5;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+
+}
+.last{
+	margin:auto;
+	width: 120px;
+	height: 80px;
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: -15px;
+}
+.foot{
+	width: 33px;
+	height: 60px;
+	background-color: #508be5;
+	position: relative;
+	border-top-left:transparent;
+	border-top-right:transparent;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+
+}
+.foot:hover{
+	transform: rotate(15deg);
+}
